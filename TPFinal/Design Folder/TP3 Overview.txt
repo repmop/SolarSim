@@ -1,0 +1,28 @@
+To implement my model, I knew I'd need a 3D rendering system. To do this, I started with basic list 'arrays' and 'matrix' transformations
+thereof to implement a 3D model and bound my 'matrix' transformations to keys. From there, I spent a lot of time researching Cuda,
+but I decided it was too complicated for my needs. Instead, I switched to Numpy arrays for speed and ease of use. From then on, 
+I was figuring out data structures and integration techniques to implement my model. Eventually, I wanted a skybox, so I 
+picked up PIL. from there, I worked on UI features and collision detection, which both proved tough but manageable.
+
+General Approach: My script uses three main data structures: an aray of points to be manipulated by movements, 
+a list of polygons and planets (the instances themselves are stored so garbage-collection doesn't interfere), 
+and 112's hallmark data 'Struct'. The user has extensive access to the point array via movement keys, limited access to the data Struct
+via certain keybinds, and almost no acccess to the list of planets/polygons (can only add new planets).
+The meat of the project is in the two classes Polygon and its subclass Planet, and the gravitition function which recalculates positions
+based on a timestep and a gravitation function. Much of the rest is UI, other than PlaceStuff(), which is a massive function
+that holds the initial conditions of the solar system from an arbitrary start data (these are obviously aproximated).
+
+As for my UI, I explain it fairly well in the video, but the primary elements are the keybinds, the integration mode selector, 
+the custom planet creator boxes, and the date entry field.
+
+Similar Projects:
+https://www.thanassis.space/gravity.html
+http://firsttimeprogrammer.blogspot.it/2014/12/and-here-comes-whole-solar-system.html
+http://www.petercollingridge.co.uk/blog/solar-system-simulation 
+
+
+
+I think I've done a good job at creating a useable simulation of the solar system in 3D, which is in that regard better than the other projects
+discussed in my competitive analysis. Compared to these projects, I think my UI is infinitely better, my project outright looks better,
+and mine is only slightly slower than the competition in terms of performance. I will say that the trajectory tracing used in some of
+these projects served as inspiration for my implementation of the same technology.

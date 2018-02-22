@@ -1,0 +1,44 @@
+﻿Nov. 5
+	5 Hours (getting 3D viewer working)
+Nov. 6
+	4-5 Hours (getting 3D viewer working, looking into numpy, cuda, openCL)
+WEEK 1 TOTAL: 9-10 HOURS
+Nov. 12 
+	4 Hours (getting OOP stuff to work, looking at differential models)
+WEEK 2 TOTAL: 9-10 HOURS
+Nov. 15
+	3 Hours (fixing bugs)
+Nov. 18
+	1-2 Hours (more OOP stuff, gravitation, research into RK4)
+Nov. 19
+	3-4 Hours (tech demo, PIL fork, windows config, skybox stuff)
+Nov. 20
+	3-4 Hours (writing TP1 deliverable, comments, getting demo ready, etc.)
+WEEK 3 TOTAL: 10-13 HOURS
+Nov. 22
+	1 Hour (debugging)
+Nov. 24
+	2 Hours (debugging, fixing RK4)
+Nov. 25
+	2 Hours (Verlet, RK4 fixing)
+Nov. 26
+	3 Hours (getting rotation to work, failing at getting collisions to check)
+Nov. 27
+	4 Hours (fixing integration again, found some insidious bugs)
+WEEK 4 TOTAL: 12 HOURS
+Nov. 28
+	4 Hours (trying to figure out skybox stuff, tidying things a bit, rewritting some functions)
+Nov. 30
+	2 Hours (Frantically trying to fix some annyoning bugs causing crashes, fixed collisions)
+Dec. 4
+	3 Hours (Finally got around to importing planetary info for SolarSim)
+WEEK 5 TOTAL: 9 HOURS
+Dec. 5
+	4 Hours (Enabled restarts, escapes, other keybinds, added date-entry feature, added datetime module support)
+Dec. 6
+	5 Hours (wrote a normalize function, fixed a lot of naggling bugs, sped up restarts/fixed slowdown issue, tidied style)
+Dec. 7
+	3 Hours (recorded video, wrote up some documentation, fixed the last couple bugs)
+WEEK 6 TOTAL: 12 HOURS
+
+Total Time Invested: ~61-66 Hours
